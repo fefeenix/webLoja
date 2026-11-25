@@ -1,0 +1,157 @@
+header {
+    background-color: #950b0b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    margin: 10px;
+    color: #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    background-color: #222;
+    padding: 8px 15px;
+}
+
+.banner {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.banner h2 {
+    margin-bottom: 15px;
+}
+
+.banner p {
+    margin-bottom: 20px;
+}
+
+.botao {
+    background-color:#971010;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+section {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imgp {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+}
+
+.imgp img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+.imgp h3 {
+    margin: 10px;
+}
+
+.imgp p {
+    margin-bottom: 10px;
+}
+
+.imgp button {
+    background-color: #ac1616;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #ccc;
+    margin: 8px;
+}
+ 
+.cadastro {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.cadastro h2 {
+    margin-bottom: 20px;
+    color: #ac1616;
+}
+
+#formcadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+#formcadastro label {
+    margin-bottom: 5px;
+}
+
+#formcadastro input,
+#formcadastro select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#formcadastro button {
+    background-color: #ac1616;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.voltar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.voltar a {
+    color: #ac1616;
+    text-decoration: none;
+}

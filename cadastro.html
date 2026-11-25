@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Desgosto</title> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>DESGOSTO</h1>
+        <p>Faça parte da nossa comunidade</p>
+    </header>
+
+    <main>
+        <section class="cadastro">
+            <h2>CRIAR CONTA</h2>
+            <p>Preencha seus dados.</p>
+
+            <form id="formcadastro">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Digite seu nome completo" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha"
+                    placeholder="Crie uma senha" required>
+
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento"
+                    required>
+
+                <label for="preferencia">Gênero ou preferência de produtos:</label>
+
+                <select name="preferencia" id="preferencia" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="unissex">Unissex</option>
+                    <option value="tenis">Tênis</option>
+                    <option value="roupas">Roupas</option>
+                </select>
+                <button type="submit">CADASTRAR</button> 
+
+            </form>
+            <p class="voltar">
+                Já possui cadastro?
+                <a href="index.html">Voltar para a loja</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
